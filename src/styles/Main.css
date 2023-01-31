@@ -1,0 +1,37 @@
+.cardMovie {
+  width: 300px;
+  height: 550px;
+
+  max-width: 300px;
+  margin: 0.5rem 1rem;
+}
+
+.movieImage {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.overview {
+  position: absolute;
+
+  background-color: rgba(245, 240, 240, 0.7);
+  color: black;
+  border-radius: 4px;
+  transition: all 0.4s;
+  width: 300px;
+  height: 320px;
+  transform: translateX(-300px);
+}
+
+.cardMovie:hover .overview {
+  transform: translateY(-320px);
+}
+
+.infoMovie {
+  background-color: rgba(0, 110, 255, 0.575);
+}
+
+.card-movie-name {
+  height: 90px;
+}
